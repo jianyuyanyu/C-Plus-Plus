@@ -48,8 +48,8 @@ var searchData=
   ['union_45',['Union',['../de/d23/disjoint__set_8cpp.html#a44481bb75386fbb0f958a388d4b9f757',1,'disjoint_set.cpp']]],
   ['union_5fof_5ftwo_5farrays_2ecpp_46',['union_of_two_arrays.cpp',['../d8/d9c/union__of__two__arrays_8cpp.html',1,'']]],
   ['union_5fsets_47',['union_sets',['../d8/d99/connected__components__with__dsu_8cpp.html#a67cb7472f310a798f555fe45cdf50145',1,'graph::disjoint_union']]],
-  ['unionset_48',['unionSet',['../dd/d1f/classdsu.html#a81897528bdb53fd5e796d75d7dbc430f',1,'dsu']]],
-  ['unionset_49',['UnionSet',['../dd/d1f/classdsu.html#a6ac30c07abca2aaa3b291504c25c3559',1,'dsu']]],
+  ['unionset_48',['UnionSet',['../dd/d1f/classdsu.html#a6ac30c07abca2aaa3b291504c25c3559',1,'dsu']]],
+  ['unionset_49',['unionSet',['../dd/d1f/classdsu.html#a81897528bdb53fd5e796d75d7dbc430f',1,'dsu']]],
   ['unique_50',['unique',['http://en.cppreference.com/w/cpp/memory/shared_ptr/unique.html',0,'std::shared_ptr::unique()'],['http://en.cppreference.com/w/cpp/container/forward_list/unique.html',0,'std::forward_list::unique()'],['http://en.cppreference.com/w/cpp/container/list/unique.html',0,'std::list::unique()'],['http://en.cppreference.com/w/cpp/algorithm/unique.html',0,'std::unique(T... args)']]],
   ['unique_5fcopy_51',['unique_copy',['http://en.cppreference.com/w/cpp/algorithm/unique_copy.html',0,'std']]],
   ['unique_5flock_52',['unique_lock',['http://en.cppreference.com/w/cpp/thread/unique_lock.html',0,'std::unique_lock&lt; T &gt;'],['http://en.cppreference.com/w/cpp/thread/unique_lock/unique_lock.html',0,'std::unique_lock::unique_lock()']]],
@@ -82,5 +82,6 @@ var searchData=
   ['user_20interface_79',['User-interface',['../dc/d64/md__coding_guidelines.html#autotoc_md18',1,'']]],
   ['user_5finput_5ftest_80',['user_input_test',['../d4/d38/power__of__two_8cpp.html#adfd6be45be425ae28c62ce3bfb4b40dc',1,'power_of_two.cpp']]],
   ['uses_5fallocator_81',['uses_allocator',['http://en.cppreference.com/w/cpp/memory/uses_allocator.html',0,'std']]],
-  ['util_5ffunctions_82',['util_functions',['../d3/d17/namespaceutil__functions.html',1,'']]]
+  ['util_5ffunctions_82',['util_functions',['../d3/d17/namespaceutil__functions.html',1,'']]],
+  ['utils_83',['utils',['../d6/d84/namespaceutils.html',1,'']]]
 ];

@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "Algorithms_in_C++", "index.html", [
+  [ "TheAlgorithms/C++", "index.html", [
     [ "The Algorithms - C++", "index.html", "index" ],
     [ "Contributor Covenant Code of Conduct", "d3/dd7/md__c_o_d_e___o_f___c_o_n_d_u_c_t.html", [
       [ "Our Pledge", "d3/dd7/md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md5", null ],
@@ -103,7 +103,7 @@ var NAVTREE =
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", "namespacemembers_dup" ],
-        [ "Functions", "namespacemembers_func.html", null ],
+        [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
         [ "Variables", "namespacemembers_vars.html", null ],
         [ "Typedefs", "namespacemembers_type.html", null ]
       ] ]
@@ -137,20 +137,20 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"cpp/iterator/distance.html",
-"cpp/thread/lock.html",
-"d1/d83/classuint256__t.html#aa4cf08fa6a33f17594b5a842866f39a1",
-"d3/d09/node_8hpp.html",
-"d4/d7a/shell__sort2_8cpp.html#a63aaff7cabfa3da2da8b9477b5fad9d6",
-"d5/d91/namespacesorting.html#af2c5b92cbfe73f63f6074c61b0a45331",
-"d6/d84/classhashing_1_1sha256_1_1_hash.html#a4581f503a263d8e928e5716d54477e08",
-"d8/d69/classgraph_1_1_h_k_graph.html",
-"d9/d13/namespaceinversion.html",
-"da/d52/minimum__edit__distance_8cpp.html#aa8dca7b867074164d5f45b0f3851269d",
-"db/d9a/classuint128__t.html#a5133f854a93efe47fd1f0f6a9589856d",
-"dd/d12/vigenere__cipher_8cpp.html",
-"de/d0d/classrange__queries_1_1fenwick__tree.html#af9f543aa5976b8cc5422490b3d6250c6",
-"df/dce/namespacegraph.html#ad4016cfc80485a43748895a2c26c7d08"
+"d1/d83/classuint256__t.html#acac9901ab133caa57d058a377d873bf6",
+"d2/dc8/classdata__structures_1_1_stack.html#a2ac469fcc2229d273450e429139d90e6",
+"d4/d13/namespacebidirectional__dijkstra.html",
+"d5/d45/sublist__search_8cpp.html#a4faee403e2758aaab682ed6622ae218c",
+"d6/d26/classciphers_1_1_hill_cipher.html#a2eb58750b978a93ac5e6eb29e3e570b7",
+"d7/d24/nqueen__print__all__solutions_8cpp.html#aebd5e11fab6dab282efccfb61beb0bd9",
+"d8/d76/morse__code_8cpp.html#a15c66ec8cf4cef0a35c50cbab86965dc",
+"d9/d12/classothers_1_1iterative__tree__traversals_1_1_binary_tree.html#a0c33f2c1a3a3deb486a1c33ee5239499",
+"da/d18/quadratic__equations__complex__numbers_8cpp.html#aa8dca7b867074164d5f45b0f3851269d",
+"db/d19/structlinear__probing_1_1_entry.html#a2139f643a3caf074da1db8a9fa16fa77",
+"dc/d38/ordinary__least__squares__regressor_8cpp.html#a21c80569aaffb7bf1657e54fa4b97deb",
+"dd/d47/namespacemath.html#a34d66a77c19ce9b8b3a3d14352b34551",
+"de/d85/decimal__to__roman__numeral_8cpp.html",
+"df/dce/namespacegraph.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

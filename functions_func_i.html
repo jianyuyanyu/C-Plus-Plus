@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -5,10 +6,15 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Algorithms_in_C++: Class Members - Functions</title>
+<title>TheAlgorithms/C++: Class Members - Functions</title>
+<link rel="icon" href="favicon.svg" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@xpack-3rd-party/doxygen-awesome-css@2.2.0-1/doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
 <script type="text/javascript" src="clipboard.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,14 +24,24 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  extensions: ["tex2jax.js", "TeX/AMSmath.js", "TeX/AMSsymbols.js"],
-  jax: ["input/TeX","output/HTML-CSS"],
-});
+<script type="text/javascript">
+window.MathJax = {
+  options: {
+    ignoreHtmlClass: 'tex2jax_ignore',
+    processHtmlClass: 'tex2jax_process'
+  },
+  loader: {
+    load: ['[tex]/ams']
+  },
+  tex: {
+    macros: {},
+    packages: ['base','configmacros','ams']
+  }
+};
 </script>
-<script type="text/javascript" async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML/MathJax.js"></script>
+<script type="text/javascript" id="MathJax-script" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -33,10 +49,11 @@ MathJax.Hub.Config({
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="project_logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Algorithms_in_C++<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">TheAlgorithms/C++<span id="projectnumber">&#160;1.0.0</span>
    </div>
-   <div id="projectbrief">Set of algorithms implemented in C++.</div>
+   <div id="projectbrief">All the algorithms implemented in C++</div>
   </td>
  </tr>
  </tbody>
@@ -109,6 +126,7 @@ $(function(){initNavTree('functions_func_i.html',''); initResizable(true); });
 <h3><a id="index_i" name="index_i"></a>- i -</h3><ul>
 <li>imag()&#160;:&#160;<a class="el" href="da/d5a/class_complex.html#af8aacf982e2e6c142921bc850f6dc974">Complex</a></li>
 <li>in_range()&#160;:&#160;<a class="el" href="dd/d9c/classmachine__learning_1_1aystar__search_1_1_eight_puzzle.html#a48d054230468b79037964f474d842b6e">machine_learning::aystar_search::EightPuzzle&lt; N &gt;</a></li>
+<li>increase_frequency()&#160;:&#160;<a class="el" href="df/d8f/classothers_1_1_cache_1_1_l_f_u_cache.html#a16a25c102554c5653721a5112ef676c9">others::Cache::LFUCache&lt; K, V &gt;</a></li>
 <li>Info()&#160;:&#160;<a class="el" href="da/d70/structmachine__learning_1_1aystar__search_1_1_ay_star_search_1_1_info.html#aaa7ea27346659f0abe2df82ca57fc5a7">machine_learning::aystar_search::AyStarSearch&lt; Puzzle &gt;::Info</a></li>
 <li>init()&#160;:&#160;<a class="el" href="d2/d8a/classrange__queries_1_1heavy__light__decomposition_1_1_h_l_d.html#ae9e979edd69678b85665c01e2ee97828">range_queries::heavy_light_decomposition::HLD&lt; X &gt;</a>, <a class="el" href="d1/d51/classrange__queries_1_1heavy__light__decomposition_1_1_tree.html#ad22d760a5a33545a70e7ea5e1786c8dc">range_queries::heavy_light_decomposition::Tree&lt; X &gt;</a></li>
 <li>inOrderIterative()&#160;:&#160;<a class="el" href="d9/d12/classothers_1_1iterative__tree__traversals_1_1_binary_tree.html#a0c33f2c1a3a3deb486a1c33ee5239499">others::iterative_tree_traversals::BinaryTree</a></li>
@@ -134,6 +152,7 @@ $(function(){initNavTree('functions_func_i.html',''); initResizable(true); });
 <li>IsFull()&#160;:&#160;<a class="el" href="dd/d40/classdata__structures_1_1tree__234_1_1_node.html#a4a37381c0ef93d5ae2118b2e554974dd">data_structures::tree_234::Node</a></li>
 <li>IsLeaf()&#160;:&#160;<a class="el" href="dd/d40/classdata__structures_1_1tree__234_1_1_node.html#a607d8201b00b142bf1d6a34df2f936e8">data_structures::tree_234::Node</a></li>
 <li>isSame()&#160;:&#160;<a class="el" href="dd/d1f/classdsu.html#a64d25c5986742f7c234ed449b2ff7303">dsu</a></li>
+<li>isValidBinaryString()&#160;:&#160;<a class="el" href="de/df6/classgreedy__algorithms_1_1_binary_addition.html#a4cfb595ba80795a9efae0e3f6f5c34d2">greedy_algorithms::BinaryAddition</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

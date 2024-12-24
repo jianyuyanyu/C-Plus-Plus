@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -5,10 +6,15 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Algorithms_in_C++: Class Members</title>
+<title>TheAlgorithms/C++: Class Members</title>
+<link rel="icon" href="favicon.svg" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@xpack-3rd-party/doxygen-awesome-css@2.2.0-1/doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
 <script type="text/javascript" src="clipboard.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,14 +24,24 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  extensions: ["tex2jax.js", "TeX/AMSmath.js", "TeX/AMSsymbols.js"],
-  jax: ["input/TeX","output/HTML-CSS"],
-});
+<script type="text/javascript">
+window.MathJax = {
+  options: {
+    ignoreHtmlClass: 'tex2jax_ignore',
+    processHtmlClass: 'tex2jax_process'
+  },
+  loader: {
+    load: ['[tex]/ams']
+  },
+  tex: {
+    macros: {},
+    packages: ['base','configmacros','ams']
+  }
+};
 </script>
-<script type="text/javascript" async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML/MathJax.js"></script>
+<script type="text/javascript" id="MathJax-script" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -33,10 +49,11 @@ MathJax.Hub.Config({
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="project_logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Algorithms_in_C++<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">TheAlgorithms/C++<span id="projectnumber">&#160;1.0.0</span>
    </div>
-   <div id="projectbrief">Set of algorithms implemented in C++.</div>
+   <div id="projectbrief">All the algorithms implemented in C++</div>
   </td>
  </tr>
  </tbody>
@@ -108,7 +125,7 @@ $(function(){initNavTree('functions_c.html',''); initResizable(true); });
 
 <h3><a id="index_c" name="index_c"></a>- c -</h3><ul>
 <li>cache&#160;:&#160;<a class="el" href="d6/dae/classothers_1_1lru__cache_1_1_l_r_u_cache.html#a3ee3560a6b90e6f50f6e063d690ba8e8">others::lru_cache::LRUCache</a></li>
-<li>capacity&#160;:&#160;<a class="el" href="d2/d05/class_min_heap.html#a88b4aa3e66392a3eabbf2517a9a79a02">MinHeap</a></li>
+<li>capacity&#160;:&#160;<a class="el" href="d2/d05/class_min_heap.html#a88b4aa3e66392a3eabbf2517a9a79a02">MinHeap</a>, <a class="el" href="df/d8f/classothers_1_1_cache_1_1_l_f_u_cache.html#ac27c9076377cbed2a2acc45a189fed2c">others::Cache::LFUCache&lt; K, V &gt;</a>, <a class="el" href="d8/d2e/classothers_1_1_cache_1_1_l_r_u_cache.html#af8edfe5a7def5d5b846463041c33136a">others::Cache::LRUCache&lt; K, V &gt;</a></li>
 <li>chain_query()&#160;:&#160;<a class="el" href="d2/d8a/classrange__queries_1_1heavy__light__decomposition_1_1_h_l_d.html#a7d5b40c076347a6aabfb37a0590f2f24">range_queries::heavy_light_decomposition::HLD&lt; X &gt;</a></li>
 <li>change_root()&#160;:&#160;<a class="el" href="d1/d51/classrange__queries_1_1heavy__light__decomposition_1_1_tree.html#ab916d554afa8ca5230b4310c2c69fae0">range_queries::heavy_light_decomposition::Tree&lt; X &gt;</a></li>
 <li>char_to_int()&#160;:&#160;<a class="el" href="d0/d3e/classdata__structures_1_1trie.html#aab373beb3f618b90922528c68797d988">data_structures::trie</a></li>
@@ -128,7 +145,7 @@ $(function(){initNavTree('functions_c.html',''); initResizable(true); });
 <li>contains()&#160;:&#160;<a class="el" href="d9/dde/classbinary__search__tree.html#aa4f84b2eec9b9201af1840868ddb5fb2">binary_search_tree&lt; T &gt;</a>, <a class="el" href="d9/dae/classdata__structures_1_1_bitset.html#a9ef54c7c3f6494b36ead3ae2e5cf43ac">data_structures::Bitset</a>, <a class="el" href="dc/dd4/classdata__structures_1_1_bloom_filter.html#a576db259488dbfb67624a9652a5ab08b">data_structures::BloomFilter&lt; T &gt;</a></li>
 <li>Convexhull()&#160;:&#160;<a class="el" href="d4/dde/classgeometry_1_1jarvis_1_1_convexhull.html#a8306e48040a8570e164c58d1c530f870">geometry::jarvis::Convexhull</a></li>
 <li>count&#160;:&#160;<a class="el" href="dd/d40/classdata__structures_1_1tree__234_1_1_node.html#a934e6d53cfefae2b971e1241a8a4c921">data_structures::tree_234::Node</a></li>
-<li>createNewNode()&#160;:&#160;<a class="el" href="d9/d12/classothers_1_1iterative__tree__traversals_1_1_binary_tree.html#a3078a5ccf45d6a7031dcf46e43de65b6">others::iterative_tree_traversals::BinaryTree</a>, <a class="el" href="dd/de1/classothers_1_1recursive__tree__traversals_1_1_b_t.html#a08711eb2d741f4b51d980cff03b53154">others::recursive_tree_traversals::BT</a></li>
+<li>createNewNode()&#160;:&#160;<a class="el" href="d9/d12/classothers_1_1iterative__tree__traversals_1_1_binary_tree.html#a3078a5ccf45d6a7031dcf46e43de65b6">others::iterative_tree_traversals::BinaryTree</a>, <a class="el" href="dd/de1/classothers_1_1recursive__tree__traversals_1_1_b_t.html#af16da5fe0f5c54d31778d71d5a042114">others::recursive_tree_traversals::BT</a></li>
 <li>cumulative_distribution()&#160;:&#160;<a class="el" href="da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#a08328dc7d62188427111f176b56a105a">probability::geometric_dist::geometric_distribution</a></li>
 <li>current_size&#160;:&#160;<a class="el" href="db/d5b/structdata__structures_1_1stack__using__queue_1_1_stack.html#afdfd2f4418c70b1bda50f2c3e416d80b">data_structures::stack_using_queue::Stack</a></li>
 </ul>
